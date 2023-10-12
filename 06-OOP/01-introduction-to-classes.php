@@ -12,6 +12,8 @@
  * within the class.
  */
 
+namespace Introduction;
+
 class User{
     // Proporties
     // Methods
