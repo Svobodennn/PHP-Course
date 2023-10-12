@@ -39,38 +39,32 @@ class Drink extends Product { // generate>implement methods
 
     public function productName($pName)
     {
-        // TODO: Implement productName() method.
         $this->pName = $pName;
     }
 
     public function productPrice($pPrice)
     {
-        // TODO: Implement productPrice() method.
         $this->pPrice = $pPrice;
     }
 
     public function productTax($pTax)
     {
-        // TODO: Implement productTax() method.
         $this->pTax = $pTax;
     }
 }
 class Textile extends Product{
     public function productName($pName)
     {
-        // TODO: Implement productName() method.
         $this->pName = $pName;
     }
 
     public function productPrice($pPrice)
     {
-        // TODO: Implement productPrice() method.
         $this->pPrice = $pPrice;
     }
 
     public function productTax($pTax)
     {
-        // TODO: Implement productTax() method.
         $this->pTax = $pTax;
     }
 
