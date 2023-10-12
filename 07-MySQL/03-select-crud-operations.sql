@@ -95,3 +95,24 @@ WHERE id = 1;
 # Delete (DELETE):
 DELETE FROM students
 WHERE id = 2;
+
+# ***   ORDER & LIMIT   ***
+
+# ORDER BY:
+SELECT * FROM employees
+ORDER BY last_name, first_name;
+# ascending
+SELECT * FROM products
+ORDER BY price DESC;
+# descending
+
+# LIMIT:
+# The LIMIT clause is used to restrict
+# the number of rows returned by a SELECT query.
+SELECT * FROM orders
+LIMIT 10;
+
+SELECT * FROM customers
+LIMIT 5 OFFSET 10;
+# This query retrieves 5 rows from the "customers" table
+# starting from the 11th row (offset of 10).
