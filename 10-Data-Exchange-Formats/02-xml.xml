@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<people>
+    <person>
+        <name>Melih</name>
+        <surname>Saraç</surname>
+        <age>22</age>
+    </person>
+    <person>
+        <name>Mammed</name>
+        <surname>Doğan</surname>
+        <age>23</age>
+    </person>
+</people>
