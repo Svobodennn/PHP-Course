@@ -1,0 +1,19 @@
+MVC stands for Model-View-Controller, which is a design pattern commonly used in software development,
+especially in the context of building web applications. It is used to separate the concerns of an application
+into three interconnected components:
+
+    Model: The Model represents the application's data and business logic. It is responsible for retrieving and storing data,
+as well as implementing the rules and calculations that govern the application's behavior. In a database-driven
+web application, the Model interacts with the database to perform CRUD (Create, Read, Update, Delete) operations.
+
+    View: The View is responsible for the presentation of data to the user. It represents the user interface, displaying
+information to the user and handling user input. The View does not contain business logic but is tightly connected
+to the Model. It is responsible for rendering data and transmitting user input to the Controller.
+
+    Controller: The Controller acts as an intermediary between the Model and the View. It receives user input from the View,
+processes it, and instructs the Model to perform the necessary actions. The Controller is responsible for managing the
+flow of the application, handling user requests, and determining which View should be displayed based on the Model's data.
+
+The MVC design pattern promotes the separation of concerns, making it easier to develop, maintain, and scale software
+applications. It also allows for reusability of components and helps in achieving a more organized and structured codebase.
+MVC is widely used in web development frameworks such as Ruby on Rails, Django, Laravel, and ASP.NET, among others.
