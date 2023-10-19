@@ -1,0 +1,34 @@
+cURL (client url) is a command-line tool and
+library for transferring data with URLs. It is used to make
+network requests and interact with various protocols such as HTTP,
+HTTPS, FTP, SCP, and more. cURL is versatile and widely used in
+the world of web development, system administration, and
+networking for a range of tasks, including:
+
+    Fetching Data: You can use cURL to download web pages, files,
+    or any data accessible via URLs.
+
+    Uploading Data: cURL allows you to upload files to web servers
+    or other services that accept file uploads.
+
+    Testing and Debugging: It's a valuable tool for testing and
+    debugging web services and APIs. You can inspect HTTP headers,
+    content, and response codes.
+
+    Automating Tasks: cURL is commonly used in scripts and
+    automation to perform tasks like fetching data periodically, checking websiteavailability, and more.
+
+    Data Transfer: It can transfer data securely over encrypted
+    connections (HTTPS, FTPS) and can handle a wide range of
+    authentication methods.
+
+    HTTP Request Methods: You can use cURL to send GET, POST, PUT,
+    DELETE, and other HTTP request methods to interact with web
+    services.
+
+cURL is available on various operating systems, including Linux,
+macOS, and Windows, and it is used by developers, system
+administrators, and security professionals for a wide array of
+tasks related to web and network communications. It provides a
+powerful and flexible way to interact with web services and
+resources from the command line or within scripts.
