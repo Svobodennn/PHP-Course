@@ -1,0 +1,4 @@
+Options -Indexes
+deny from all
+#allow from #ip, give access to this ip
+

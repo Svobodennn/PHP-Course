@@ -1,0 +1,30 @@
+#change index file
+DirectoryIndex /01-hi.php
+
+<Files '/01-contact.php'>
+deny from all #only for this file
+allow from 213.74.44.190
+</Files>
+
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile .htpasswd
+require valid-user
+
+#custom error page
+ErrorDocument 404 404.html
+ErrorDocument 401 401.html
+
+#RewriteEngine
+RewriteEngine on
+RewriteRule ^melih$ index.php #when /melih is typed, goes to index.php
+RewriteRule ^(.*)$ index.php #everything leads to index.php
+RewriteRule ^(.*)$ index.php?route=$1 #defining get value
+RewriteRule ^(tr|en)?/?([a-z0-9/*]+)$ index.php?lang=$1&route=$2
+
+RewriteCond %{HTTP_HOST} ^www.something.com$
+RewriteRule ^(.*)$ http://something.com$1 [R=301]
+RewriteRule ^(tr|en)?/?([a-z0-9/*]+)$ index.php?lang=$1&route=$2 [QSA]
+
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^ https://something.com%{REQUEST_URI}
