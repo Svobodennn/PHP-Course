@@ -1,0 +1,5 @@
+#01-public folder can not be accessed
+Options -Indexes
+
+#html cant use css
+#deny from all

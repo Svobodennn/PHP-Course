@@ -1,0 +1,10 @@
+#Options -Indexes
+#in Apache server configuration prevents
+#directory listing, so it won't display the files and
+#subdirectories in a directory when no index file is present.
+Options -Indexes
+
+#"Deny from all"
+#in Apache server configuration restricts access to a directory
+#or file, denying all users from accessing it.
+deny from all
