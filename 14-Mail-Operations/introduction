@@ -1,0 +1,4 @@
+Dependencies: Composer, PHPMailer, faker
+-composer init
+-composer require phpmailer/phpmailer
+-composer require --dev fakerphp/faker
